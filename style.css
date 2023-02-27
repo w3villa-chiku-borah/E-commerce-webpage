@@ -699,17 +699,27 @@ overflow: hidden;
 }
 .lebels-c1{
   position: absolute;
-  top: 11%;
-  left: -106px;
-  width: 100%;
+  top: 37px;
+  left: -34pxx;
+  left: -35px;
+  /* width: 100%; */
+  width: 184px;
   height: 25px;
-  /* border: 1px solid blue; */
   background-color: blue;
   color: aliceblue;
   text-align: center;
   transform: rotate(-43deg);
   font-size: 14px;
 }
+/* @media screen and (max-width:999px){
+  .lebels-c1{
+    left: -94px;
+    top: 11%;
+}
+  } */
+  
+
+
 .lebels-c22{
   background-color: orangered;
 }
@@ -917,10 +927,6 @@ height: 100%;
   /* 
   top:12px */
 }
-.lebels-04-main-1{
-  top: 46px;
-  /* left: -126px; */
-}
 
 .image-main-04{
   padding-top: 0px;
@@ -940,33 +946,9 @@ height: 100%;
     /* right: 46%; */
     top: 10px;
   }
-  .lebels-04-main-1{
-    /* top: 27px; */
-    }
+  
 }
-@media screen  and (max-width:1085px){
-  
-  
-  .lebels-04-main-1{
-     top: 27px; 
-    }
-  }
-@media screen  and (max-width:773px){
-  
-  
-  .lebels-04-main-1{
-    top: 60px;
-    left: -164px;
-    }
-  }
-@media screen  and (max-width:583px){
-  
-  
-  .lebels-04-main-1{
-    top: 30px;
-    left: -83px;
-    }
-  }
+
 
 
 
@@ -1040,6 +1022,7 @@ height: 100%;
   width: 110px;
   height: 32px;
   font-size: 13px !important;
+
 }
 
 .owl3 .add-to-cart-container div i{
@@ -1288,7 +1271,7 @@ footer div ul{
 }
 footer div ul li{
   list-style-type: none;
-  color: var(--primary-blue-color);
+  color: blue;
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 20px;
