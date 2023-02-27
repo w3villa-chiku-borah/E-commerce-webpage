@@ -11,8 +11,13 @@ body{
     padding-right: 50px;
   } 
   .container{
-    width:90%;
+    width: 90%;
    
+  }
+  @media screen and (max-width:500px){
+    .container{
+      width: 95%;
+    }
   }
   .nav-home {
     display: flex;
@@ -1284,7 +1289,7 @@ footer div ul li a{
 footer div  .paragraph{
   font-size: 22px;
   opacity: 60%;
-width: 250px;
+width: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
 }
@@ -1377,10 +1382,18 @@ copyright text
       justify-content: center;
    }
    .copyright_sec div img{
-      width: 350px !important;
+      width: 281px !important;
    }
    .copyright_sec p{
 text-align: center;    }
+  
+}
+@media screen and (max-width:450px){
+   
+   .copyright_sec p{
+text-align: center; 
+text-align: center;
+font-size: 15px;   }
   
 }
 
@@ -1388,6 +1401,7 @@ text-align: center;    }
   width: 500px;
   opacity: 60%;
 }
+
 
  input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
