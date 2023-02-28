@@ -31,33 +31,66 @@
                 <div class="row d-flex home-about">
                     <div class="col-md-4">
                         <div class="nav-home">
-                            <ul>
+                            <ul class="nav-12">
                                 <li><i class="fa-solid fa-house"></i></i> <a herf="#">Home</a></li>
                                 <li><i class="fa-solid fa-address-card"></i> <a herf="#">About Us</a></li>
                                 <li><i class="fa-solid fa-envelope"></i> <a herf="#">Contact Us</a></li>
-                                <li><i class="fa-solid fa-circle-question"></i><a herf="#">FAQ </a><i
-                                        class="fa-solid fa-caret-down"></i></li>
+                                <li class="FAQ"><i class="fa-solid fa-circle-question"></i><a herf="#">FAQ </a><i
+                                        class="fa-solid fa-caret-down"></i>
+                                    <div class="drop_down_container">
+                                        <ul class="drop_down">
+                                            <li><a href="#">Question us</a></li>
+                                            <li><a href="#">Contect us</a></li>
+                                            <li><a href="#">me</a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
                             </ul>
                         </div>
 
                     </div>
                     <div class="col-md-4">
                         <div class="nav-home nav-english">
-                            <ul>
-                                <li>
+                            <ul class="nav-home">
+                                <li class="FAQ">
                                     &#127468;&#127463; English <i class="fa-solid fa-caret-down"></i>
+                                    <div class="drop_down_container">
+                                        <ul class="drop_down">
+                                            <li><a href="#">Hindi</a></li>
+                                            <li><a href="#">Tamil</a></li>
+
+                                        </ul>
+                                    </div>
                                 </li>
-                                <li>
+                                <li class="FAQ">
                                     $ Us Doller <i class="fa-solid fa-caret-down"></i>
+                                    <div class="drop_down_container">
+                                        <ul class="drop_down">
+                                            <li><a href="#">UK</a></li>
+                                            <li><a href="#">INDIAN RUPEE</a></li>
+
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="nav-home nav-menu">
-                            <ul>
-                                <li><i class="fa-solid fa-user"></i><i class="fa-solid fa-bars"></i> More Menus <i
-                                        class="fa-solid fa-caret-down"></i></li>
+                            <ul class="nav-home">
+                                <li class="FAQ"><i class="fa-solid fa-user"></i><i class="fa-solid fa-bars"></i> More
+                                    Menus <i class="fa-solid fa-caret-down"></i>
+                                    <div class="drop_down_container">
+                                        <ul class="drop_down">
+                                            <li><a href="#">HOME </a></li>
+                                            <li><a href="#">ABOUT US</a></li>
+                                            <li><a href="#">CONTECT US</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </li>
                                 <li><i class="fa-solid fa-truck"></i> Delivery</li>
                             </ul>
                         </div>
@@ -103,8 +136,20 @@
                     <div class="col-lg-5">
                         <div class="search login">
                             <ul>
-                                <li>
-                                    <p>All<i class="fa-solid fa-caret-down"></i></p><input type="text" id="myInput"
+                                <li  class="FAQ">
+                                    <p > <a href="#">All</a>
+                                        
+                                        <i class="fa-solid fa-caret-down"></i>
+                                        <div class="drop_down_container for-all-drop-down">
+                                            <ul class="drop_down">
+                                                <li><a href="#">Mobile </a></li>
+                                                <li><a href="#">HeadPhones</a></li>
+                                                <li><a href="#">footwear</a></li>
+    
+                                            </ul>
+                                        </div>
+                                    </p>
+                                    <input type="text" id="myInput"
                                         placeholder="Search for names..">
                                     <p><i class="fa-solid fa-magnifying-glass"></i></p>
                                 </li>
@@ -196,7 +241,7 @@
             </div>
         </section>
     </header>
-    <!-- *****************************maim******************************* -->
+    <!-- *****************************main******************************* -->
     <section>
         <div class="container">
             <div class="row">
@@ -302,13 +347,14 @@
                 </p>
             </div>
             <!-- ******box sec********* -->
-            <div class="box-p">
-                <div class="box-c boxc1">
-                    <div class="up-arrow"></div>TOP CATEGORIES
+            <div class="box-p" >
+                <div class="box-c  boxc1" onclick="tapButtonBuy(this)" >
+                    <!-- <div class="up-arrow"></div> -->
+                    TOP CATEGORIES
                 </div>
-                <div class="box-c boxc2">ELECTRONICS</div>
-                <div class="box-c boxc3">BEAUTY</div>
-                <div class="box-c boxc4">FASHION</div>
+                <div class="box-c boxc2" onclick="tapButtonBuy(this)" >ELECTRONICS</div>
+                <div class= "box-c boxc3"  onclick="tapButtonBuy(this)"  >BEAUTY</div>
+                <div class="box-c boxc4" onclick="tapButtonBuy(this)" >FASHION</div>
 
             </div>
             <!--*********cursizv photos****** -->
@@ -367,12 +413,13 @@
             </div>
             <!-- ******box sec********* -->
             <div class="box-p">
-                <div class="box-c boxc1">
-                    <div class="up-arrow"></div>FEATURED
+                <div class="box-c boxc1-feature "  onclick="tapButtonFeature(this)">
+                    <!-- <div class="up-arrow"></div> -->
+                    FEATURED
                 </div>
-                <div class="box-c boxc2">LATEST</div>
-                <div class="box-c boxc3">BESTSELLERS</div>
-                <div class="box-c boxc4">SPECIAL</div>
+                <div class="box-c boxc2"  onclick="tapButtonFeature(this)">LATEST</div>
+                <div class="box-c boxc3"  onclick="tapButtonFeature(this)">BESTSELLERS</div>
+                <div class="box-c boxc4"  onclick="tapButtonFeature(this)">SPECIAL</div>
 
             </div>
             <!--*********cursizv photos****** -->
@@ -1026,17 +1073,18 @@
             </div>
             <!-- ******box sec********* -->
             <div class="box-p">
-                <div class="box-c boxc1">
-                    <div class="up-arrow"></div>TOP CATEGORIES
+                <div class="box-c boxc1-blog" onclick="tapButtonBlog(this)"  >
+                    <!-- <div class="up-arrow"></div> -->
+                    TOP CATEGORIES
                 </div>
-                <div class="box-c boxc2">ELECTRONICS</div>
+                <div class="box-c boxc2" onclick="tapButtonBlog(this)" >ELECTRONICS</div>
 
             </div>
             <div class="owl-carousel owl-theme" id="owlthree">
                 <div class="item item-main-07">
                     <img src="12.jpg">
                     <div class="aug">
-                        2 aug
+                        2 <br> aug
                     </div>
                     <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
                         <i class="fa-solid fa-comment-dots"></i><span>38</span>
@@ -1062,7 +1110,8 @@
                 <div class="item item-main-07">
                     <img src="72.jpg">
                     <div class="aug">
-                        2 aug
+                        2 <br> aug
+
                     </div>
                     <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
                         <i class="fa-solid fa-comment-dots"></i><span>38</span>
@@ -1089,7 +1138,8 @@
                 <div class="item item-main-07">
                     <img src="73.jpg">
                     <div class="aug">
-                        2 aug
+                        2 <br> aug
+
                     </div>
                     <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
                         <i class="fa-solid fa-comment-dots"></i><span>38</span>
@@ -1115,7 +1165,8 @@
                 <div class="item item-main-07">
                     <img src="74.jpg">
                     <div class="aug">
-                        2 aug
+                        2 <br> aug
+
                     </div>
                     <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
                         <i class="fa-solid fa-comment-dots"></i><span>38</span>
@@ -1389,29 +1440,29 @@
             </footer>
         </div>
 
-            <!-- ************************************
+        <!-- ************************************
     copyright *************** -->
 
-            <section class="copyright_sec ">
-                <div class="container">
+        <section class="copyright_sec ">
+            <div class="container">
 
-                
+
                 <div>
 
                     <p> Copyright © 2023 developed by <a href="mailto:anyadav411998@gmail.com"> Chiku Borah </a></p>
                     <img loading="lazy" loading="lazy" src="paymentcard.png" alt="">
 
                 </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -127,3 +127,24 @@ $('#owltwo.owl-carousel').owlCarousel({
     
     });
     });
+
+function tapButtonBuy(para){
+    let boxC= document.getElementsByClassName('boxc1')[0];
+    boxC.classList.remove("boxc1");
+    para.classList.add("boxc1");
+
+}
+function tapButtonFeature(para){
+    let boxC= document.getElementsByClassName('boxc1-feature')[0];
+    boxC.classList.remove("boxc1-feature");
+    para.classList.add("boxc1-feature");
+
+}
+function tapButtonBlog(para){
+    let boxC= document.getElementsByClassName('boxc1-blog')[0];
+    boxC.classList.remove("boxc1-blog");
+    para.classList.add("boxc1-blog");
+
+}
+
+
