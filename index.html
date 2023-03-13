@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerece</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 img-col">
-
+                    <div class="owl-carousel owl-theme" id="owlSecond">
                     <div class="main-c">
                         <div class="main-c-text ">
                             <ul>
@@ -258,8 +258,32 @@
                             </ul>
                         </div>
 
-                        <img class="main-c-img" src="ramiro-mendes-CjS3QsRuxnE-unsplash.jpg" alt="11">
+                        <img class="main-c-img" src="/asset/ramiro-mendes-CjS3QsRuxnE-unsplash.jpg" alt="11">
                     </div>
+                    <div class="main-c">
+                        <div class="main-c-text ">
+                            <ul>
+                                <li class="mob"> Mobile</li>
+                                <li class="best"> Best Mobile <br>option At<br> any Resolutions</li>
+                                <li class="learn"> <button> Learn more-></button></li>
+                            </ul>
+                        </div>
+
+                        <img class="main-c-img" src="/asset/ramiro-mendes-CjS3QsRuxnE-unsplash.jpg" alt="11">
+                    </div>
+                    <div class="main-c">
+                        <div class="main-c-text ">
+                            <ul>
+                                <li class="mob"> Mobile</li>
+                                <li class="best"> Best Mobile <br>option At<br> any Resolutions</li>
+                                <li class="learn"> <button> Learn more-></button></li>
+                            </ul>
+                        </div>
+
+                        <img class="main-c-img" src="/asset/ramiro-mendes-CjS3QsRuxnE-unsplash.jpg" alt="11">
+                    </div>
+                    </div>
+
                 </div>
                 <div class="col-lg-3   img-col2">
                     <div class="up">
@@ -270,7 +294,7 @@
                             </P>
                         </div>
 
-                        <img src="kuiye-chen-NuOGFo4PudE-unsplash.jpg">
+                        <img src="/asset/kuiye-chen-NuOGFo4PudE-unsplash.jpg">
                     </div>
                     <div class="down">
                         <div class="build">
@@ -280,7 +304,7 @@
                             </P>
                         </div>
 
-                        <img src="kuiye-chen-NuOGFo4PudE-unsplash.jpg">
+                        <img src="/asset/kuiye-chen-NuOGFo4PudE-unsplash.jpg">
                     </div>
 
                 </div>
@@ -351,8 +375,7 @@
             <!-- ******box sec********* -->
             <div class="box-p" >
                 <div class="box-c  boxc1" onclick="tapButtonBuy(this)" >
-                    <!-- <div class="up-arrow"></div> -->
-                    TOP CATEGORIES
+                    TOP_CATEGORIES
                 </div>
                 <div class="box-c boxc2" onclick="tapButtonBuy(this)" >ELECTRONICS</div>
                 <div class= "box-c boxc3"  onclick="tapButtonBuy(this)"  >BEAUTY</div>
@@ -362,32 +385,31 @@
             <!--*********cursizv photos****** -->
             <div>
 
+               <div id="buy-img-container">
 
-
-
-                <div class="owl-carousel owl-theme" id="owltwo">
-                    <div class="item">
-                        <div class="item-c">FASHION</div><img src="12.jpg">
+                <div class="owl-carousel owl-theme" id="owlFirst">
+                    <!-- <div class="item">
+                        <div class="item-c">FASHION</div><img src="/asset/12.jpg">
                     </div>
                     <div class="item">
-                        <div class="item-c">BAGS</div><img src="13.jpg">
+                        <div class="item-c">BAGS</div><img src="/asset/13.jpg">
                     </div>
                     <div class="item">
-                        <div class="item-c">HEALTH & BEAUTY</div><img src="14.jpg">
+                        <div class="item-c">HEALTH & BEAUTY</div><img src="/asset/14.jpg">
                     </div>
                     <div class="item">
-                        <div class="item-c">FOOTWEAR</div><img src="15.jpg">
+                        <div class="item-c">FOOTWEAR</div><img src="/asset/15.jpg">
                     </div>
                     <div class="item">
-                        <div class="item-c">HOME DECOR</div><img src="16.jpg">
+                        <div class="item-c">HOME DECOR</div><img src="/asset/16.jpg">
                     </div>
                     <div class="item">
-                        <div class="item-c">CLOTHS</div><img src="17.jpg">
-                    </div>
+                        <div class="item-c">CLOTHS</div><img src="/asset/17.jpg">
+                    </div> -->
 
                 </div>
 
-
+            </div>
             </div>
 
 
@@ -416,7 +438,7 @@
             <!-- ******box sec********* -->
             <div class="box-p">
                 <div class="box-c boxc1-feature "  onclick="tapButtonFeature(this)">
-                    <!-- <div class="up-arrow"></div> -->
+
                     FEATURED
                 </div>
                 <div class="box-c boxc2"  onclick="tapButtonFeature(this)">LATEST</div>
@@ -428,11 +450,12 @@
             <div>
 
 
+      <div id="show-feature">
 
 
                 <div class="owl-carousel owl-theme" id="owltwo">
 
-                    <div class="item02"> <img class="labels-1" src="21.jpg">
+                    <!-- <div class="item02"> <img class="labels-1" src="/asset/21.jpg">
                         <div class="lebels-c1">
                             CUSTOM LEBELS
                         </div>
@@ -464,7 +487,7 @@
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
                     </div>
-                    <div class="item02"> <img class="labels-1" src="22.jpg">
+                    <div class="item02"> <img class="labels-1" src="/asset/22.jpg">
                         <div class="lebels-c1 lebels-c22">
                             2-3 DAYS
                         </div>
@@ -495,7 +518,7 @@
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
                     </div>
-                    <div class="item02"> <img class="labels-1" src="23.jpg">
+                    <div class="item02"> <img class="labels-1" src="/asset/23.jpg">
                         <div class="item02-c1">
                             <p><u>Eriksson</u></p>
                             <p>model 2098</p>
@@ -519,7 +542,7 @@
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
                     </div>
-                    <div class="item02"> <img class="labels-1" src="24.jpg">
+                    <div class="item02"> <img class="labels-1" src="/asset/24.jpg">
                         <div class="lebels-c1">
                             CUSTOM LEBELS
                         </div>
@@ -552,7 +575,7 @@
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
                     </div>
-                    <div class="item02"> <img class="labels-1" src="25.jpg">
+                    <div class="item02"> <img class="labels-1" src="/asset/25.jpg">
                         <div class="lebels-c1">
                             CUSTOM LEBELS
                         </div>
@@ -585,7 +608,7 @@
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
                     </div>
-                    <div class="item02"> <img class="labels-1" src="26.jpg">
+                    <div class="item02"> <img class="labels-1" src="/asset/26.jpg">
                         <div class="lebels-c1">
                             CUSTOM LEBELS
                         </div>
@@ -617,11 +640,13 @@
                                 Buy Now </p>
                             <p><i class="fa-regular fa-circle-question"></i> Question</p>
                         </div>
-                    </div>
+                    </div> -->
 
 
 
                 </div>
+
+      </div>
                 <div class="main-03-see-all-product">
                     <p>SEE ALL PRODUCT
                     </p>
@@ -720,7 +745,7 @@
                     <span>Fashion</span>
                     <hr class="hr">
                     <div class="image-container image-main-04 ">
-                        <img loading="lazy" src="26.jpg" alt="">
+                        <img loading="lazy" src="/asset/26.jpg" alt="">
                     </div>
                     <div class="text-container">
                         <p>Accesories</p>
@@ -740,12 +765,12 @@
                     <span>New in Fashion</span>
                     <hr class="hr">
 
-                    <div class="categories-card-carosel">
+                    <div id="show-fashion" class="categories-card-carosel">
                         <div class="owl-carousel owl-theme" id="owlfour">
-                            <div class="item item-main-04">
+                            <!-- <div class="item item-main-04">
                                 <div class="featured-products-card">
                                     <div class="image-container">
-                                        <img loading="lazy" src="12.jpg" alt="">
+                                        <img loading="lazy" src="/asset/12.jpg" alt="">
 
                                         <div class="lebels-c1 lebels-04-main-1">
                                             2-3 days
@@ -785,7 +810,7 @@
                             <div class="item item-main-04">
                                 <div class="featured-products-card">
                                     <div class="image-container">
-                                        <img loading="lazy" src="12.jpg" alt="">
+                                        <img loading="lazy" src="/asset/12.jpg" alt="">
 
 
 
@@ -817,7 +842,7 @@
                             <div class="item item-main-04">
                                 <div class="featured-products-card">
                                     <div class="image-container">
-                                        <img loading="lazy" src="12.jpg" alt="">
+                                        <img loading="lazy" src="/asset/12.jpg" alt="">
 
 
 
@@ -856,7 +881,7 @@
                             <div class="item item-main-04">
                                 <div class="featured-products-card">
                                     <div class="image-container">
-                                        <img loading="lazy" src="12.jpg" alt="">
+                                        <img loading="lazy" src="/asset/12.jpg" alt="">
 
 
 
@@ -893,7 +918,7 @@
                             <div class="item item-main-04">
                                 <div class="featured-products-card">
                                     <div class="image-container">
-                                        <img loading="lazy" src="12.jpg" alt="">
+                                        <img loading="lazy" src="/asset/12.jpg" alt="">
 
 
                                         <div class="lebels-c2 lebels-c3 lebels-04-main-2">
@@ -924,7 +949,7 @@
                                 </div>
 
 
-                            </div>
+                            </div> -->
 
 
 
@@ -966,34 +991,34 @@
             <div>
                 <div class="owl-carousel  owl-theme" id="owlone">
                     <div class=" item-brand">
-                        <img src="51 (copy).png">
+                        <img src="/asset/51 (copy).png">
                     </div>
                     <div class=" item-brand">
-                        <img src="52.jpeg">
+                        <img src="/asset/52.jpeg">
                     </div>
                     <div class=" item-brand">
-                        <img src="53.jpeg">
+                        <img src="/asset/53.jpeg">
                     </div>
                     <div class=" item-brand">
-                        <img src="54.png">
+                        <img src="/asset/54.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="55.png">
+                        <img src="/asset/55.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="56.png">
+                        <img src="/asset/56.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="57.png">
+                        <img src="/asset/57.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="58.png">
+                        <img src="/asset/58.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="59.png">
+                        <img src="/asset/59.png">
                     </div>
                     <div class=" item-brand">
-                        <img src="510.png">
+                        <img src="/asset/510.png">
                     </div>
 
 
@@ -1026,28 +1051,28 @@
                 </p>
                 <div class="main-06-image">
                     <div class=" item-brand">
-                        <img src="12.jpg">
+                        <img src="/asset/12.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="23.jpg">
+                        <img src="/asset/23.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="74.jpg">
+                        <img src="/asset/74.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="16.jpg">
+                        <img src="/asset/16.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="22.jpg">
+                        <img src="/asset/22.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="26.jpg">
+                        <img src="/asset/26.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="21.jpg">
+                        <img src="/asset/21.jpg">
                     </div>
                     <div class=" item-brand">
-                        <img src="24.jpg">
+                        <img src="/asset/24.jpg">
                     </div>
 
                 </div>
@@ -1076,15 +1101,15 @@
             <!-- ******box sec********* -->
             <div class="box-p">
                 <div class="box-c boxc1-blog" onclick="tapButtonBlog(this)"  >
-                    <!-- <div class="up-arrow"></div> -->
-                    TOP CATEGORIES
+                    LATEST POST
                 </div>
-                <div class="box-c boxc2" onclick="tapButtonBlog(this)" >ELECTRONICS</div>
+                <div class="box-c boxc2" onclick="tapButtonBlog(this)" >MOST READ</div>
 
             </div>
+            <div id="from-our-blog-img">
             <div class="owl-carousel owl-theme" id="owlthree">
-                <div class="item item-main-07">
-                    <img src="12.jpg">
+                <!-- <div class="item item-main-07">
+                    <img src="/asset/12.jpg">
                     <div class="aug">
                         2 <br> aug
                     </div>
@@ -1110,62 +1135,7 @@
                     </div>
                 </div>
                 <div class="item item-main-07">
-                    <img src="72.jpg">
-                    <div class="aug">
-                        2 <br> aug
-
-                    </div>
-                    <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
-                        <i class="fa-solid fa-comment-dots"></i><span>38</span>
-                        <i class="fa-solid fa-eye"></i><span>17657</span>
-
-                    </div>
-
-                    <div class="item-main-07-jurnal">
-                        <h1>
-                            Jouranl Blog is Here
-                        </h1>
-                        <p class="item-main-07-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit,
-                            cumque veritatis ratione aut voluptates ipsum fugit minus porro tenetur autem aliquam
-                            delectus, cum eligendi vel.lorem10
-
-                        </p>
-                        <p>
-                            <a>
-                                Read More->
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="item item-main-07">
-                    <img src="73.jpg">
-                    <div class="aug">
-                        2 <br> aug
-
-                    </div>
-                    <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
-                        <i class="fa-solid fa-comment-dots"></i><span>38</span>
-                        <i class="fa-solid fa-eye"></i><span>17657</span>
-
-                    </div>
-                    <div class="item-main-07-jurnal">
-                        <h1>
-                            Jouranl Blog is Here
-                        </h1>
-                        <p class="item-main-07-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit,
-                            cumque veritatis ratione aut voluptates ipsum fugit minus porro tenetur autem aliquam
-                            delectus, cum eligendi vel.lorem10
-
-                        </p>
-                        <p>
-                            <a>
-                                Read More->
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="item item-main-07">
-                    <img src="74.jpg">
+                    <img src="/asset/72.jpg">
                     <div class="aug">
                         2 <br> aug
 
@@ -1192,13 +1162,68 @@
                         </p>
                     </div>
                 </div>
+                <div class="item item-main-07">
+                    <img src="/asset/73.jpg">
+                    <div class="aug">
+                        2 <br> aug
 
+                    </div>
+                    <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
+                        <i class="fa-solid fa-comment-dots"></i><span>38</span>
+                        <i class="fa-solid fa-eye"></i><span>17657</span>
+
+                    </div>
+                    <div class="item-main-07-jurnal">
+                        <h1>
+                            Jouranl Blog is Here
+                        </h1>
+                        <p class="item-main-07-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit,
+                            cumque veritatis ratione aut voluptates ipsum fugit minus porro tenetur autem aliquam
+                            delectus, cum eligendi vel.lorem10
+
+                        </p>
+                        <p>
+                            <a>
+                                Read More->
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item item-main-07">
+                    <img src="/asset/74.jpg">
+                    <div class="aug">
+                        2 <br> aug
+
+                    </div>
+                    <div class="main-07-admin"> <i class="fa-solid fa-user"></i><span>admin</span>
+                        <i class="fa-solid fa-comment-dots"></i><span>38</span>
+                        <i class="fa-solid fa-eye"></i><span>17657</span>
+
+                    </div>
+
+                    <div class="item-main-07-jurnal">
+                        <h1>
+                            Jouranl Blog is Here
+                        </h1>
+                        <p class="item-main-07-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit,
+                            cumque veritatis ratione aut voluptates ipsum fugit minus porro tenetur autem aliquam
+                            delectus, cum eligendi vel.lorem10
+
+                        </p>
+                        <p>
+                            <a>
+                                Read More->
+                            </a>
+                        </p>
+                    </div>
+                </div>
+ -->
 
 
 
 
             </div>
-
+        </div>
         </div>
         </div>
     </section>
@@ -1303,11 +1328,11 @@
                 <div class="line-c"></div>
             </div>
 
-
+             <div id="mostView">
             <div class="owl-carousel owl-theme" id="owlnine">
-                <div class="item-09">
+                <!-- <div class="item-09">
                     <div class="item-c-09">
-                        <div class="item-c1-09"><img src="22.jpg"></div>
+                        <div class="item-c1-09"><img src="/asset/22.jpg"></div>
                         <div class="item-c2-09">
                             <h1>Lorem, ipsum dolor.</h1>
                             <p>$ 99.00</p>
@@ -1321,7 +1346,7 @@
                 </div>
                 <div class="item-09">
                     <div class="item-c-09">
-                        <div class="item-c1-09"><img src="22.jpg"></div>
+                        <div class="item-c1-09"><img src="/asset/22.jpg"></div>
                         <div class="item-c2-09">
                             <h1>Lorem, ipsum dolor.</h1>
                             <p>$ 99.00</p>
@@ -1335,7 +1360,7 @@
                 </div>
                 <div class="item-09">
                     <div class="item-c-09">
-                        <div class="item-c1-09"><img src="22.jpg"></div>
+                        <div class="item-c1-09"><img src="/asset/22.jpg"></div>
                         <div class="item-c2-09">
                             <h1>Lorem, ipsum dolor.</h1>
                             <p>$ 99.00</p>
@@ -1349,7 +1374,7 @@
                 </div>
                 <div class="item-09">
                     <div class="item-c-09">
-                        <div class="item-c1-09"><img src="22.jpg"></div>
+                        <div class="item-c1-09"><img src="/asset/22.jpg"></div>
                         <div class="item-c2-09">
                             <h1>Lorem, ipsum dolor.</h1>
                             <p>$ 99.00</p>
@@ -1360,10 +1385,11 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
+        </div>
         </div>
 
     </section>
@@ -1464,7 +1490,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
             integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="script.js" type="text/javascript"></script>
+            <script src="index.js" type="text/javascript"></script>
+            <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
